@@ -1,0 +1,73 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+
+}
+
+body{
+	background-color: white;
+	font-style: helvetica;
+}
+ #maincontainer > h1{
+	text-align: center;
+
+}
+
+.chickencontainer{
+	width: 33%;
+	float: left;
+	border:solid;
+
+}
+.Veggiecontainer{
+	width:33%;
+	float: left;
+}
+.beefcontainer{
+	width:33%;
+	float: left;
+}
+.menucontainer{
+	padding: 20px 0px;
+}
+#item1{
+		background-color: #F08080;
+		border-left: solid ;
+		border-bottom: solid;
+		margin-bottom: : 2px;
+		padding: 3px;
+
+}
+
+#item2{
+		background-color: #F08080;
+		border-left: solid ;
+		border-bottom: solid;
+		margin-bottom: : 2px;
+		padding: 3px;
+
+}
+
+#item3{
+		background-color: #F08080;
+		border-left: solid ;
+		border-bottom: solid;
+		margin-bottom: : 2px;
+		padding: 3px;
+
+}
+
+.menucontainer h1{
+	float: right;
+	clear: right;
+}
+
+p{
+	clear: right;
+padding: 4px;
+}
+.menucontainer div{
+	margin:2px;
+	border:solid;
+	background-color: grey;
+}
