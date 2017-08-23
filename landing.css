@@ -7,35 +7,37 @@
 body{
 	background-color: white;
 	font-family: Consolas, monaco, monospace;
+	margin: 0px;
+	padding: 0px;
+
 }
  #maincontainer > h1{
 	text-align: center;
+	
 
 }
 
-.chickencontainer{
+.chickencontainer,.Veggiecontainer,.beefcontainer{
 	float: left;
-	border:solid;
+	margin: 6px;
+	font-size: 12px;
 
 }
-.Veggiecontainer{
-	float: left;
-}
-.beefcontainer{
-	float: left;
-}
+
 .menucontainer{
-	padding: 20px 0px;
+	width: 100%;
+	padding: 20px 0px 0px 20px;
+	margin: 2px auto;
+	overflow: hidden;
 }
  #item1, #item2 ,#item3{
 		background-color: #F08080;
-		border-left: solid ;
-		border-bottom: solid;
-		margin-bottom: : 2px;
+		border:1px solid black;
+		margin-bottom:2px;
 		padding: 3px;
 		width:25%;
 		font-family: Consolas, monaco, monospace;
-	font-size: 20px;
+	font-size: 15px;
 	font-style: normal;
 	text-align: center;
 	float: right;
@@ -44,16 +46,15 @@ body{
 
 }
 
-/*.menucontainer h1{
-	float: right;
-	clear: right;
-}*/
-
 p{
 	clear: right;
+	padding: 4px;
+	margin: 2px;
 }
+
 .menucontainer div{
-	border:solid;
+	border:thin;
+	border-width: 1px;
 	background-color: grey;
 }
 
@@ -62,9 +63,10 @@ p{
 
 .row{
 	width: 100%;
+	position: relative;
 }
 
-@media (min-width: 992px){
+@media    (min-width: 992px) and (max-width: 1300px){
 .col-lg-1,
 .col-lg-2,
 .col-lg-3,
@@ -83,7 +85,9 @@ p{
 .col-lg-1 {width: 8.33%;}
 .col-lg-2 {width: 16.66%;}
 .col-lg-3 {width: 25%;}
-.col-lg-4 {width: 33%;}
+.col-lg-4 {width: 32%;
+
+}
 .col-lg-5 {width: 41.66%;}
 .col-lg-6 {width: 50%;}
 .col-lg-7 {width: 58.33%;}
@@ -108,7 +112,7 @@ p{
 .col-md-9,
 .col-md-10,
 .col-md-11,
-.col-md-12,{
+.col-md-12{
 	float:left;
 
 }
@@ -117,13 +121,18 @@ p{
 .col-md-3 {width: 25%;}
 .col-md-4 {width: 33%;}
 .col-md-5 {width: 41.66%;}
-.col-md-6 {width: 42%;}
+.col-md-6 {width: 48%;
+margin:1%;
+height: 100%;
+}
 .col-md-7 {width: 58.33%;}
 .col-md-8 {width: 66.66%;}
 .col-md-9 {width: 75%;}
 .col-md-10 {width: 83.33%;}
 .col-md-11 {width: 91.66%;}
-.col-md-12 {width: 100%;}
+.col-md-12 {width: 98%;
+margin: 1%;
+}
 }
 
 
